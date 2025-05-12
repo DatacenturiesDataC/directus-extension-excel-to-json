@@ -1,0 +1,61 @@
+{
+  "name": "@DatacenturiesDataC/directus-operation-excel-to-json",
+  "description": "Converts Excel, CSV, or XML files into JSON format.",
+  "icon": "extension",
+  "version": "1.0.0",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-extension-operation",
+    "excel",
+    "csv",
+    "xml",
+    "json",
+    "converter",
+    "import",
+    "data-processing"
+  ],
+  "author": {
+    "name": "DATA C",
+    "email": "support@datac.com"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DatacenturiesDataC/directus-operation-excel-to-json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DatacenturiesDataC/directus-operation-excel-to-json.git "
+  },
+  "bugs": {
+    "url": "https://github.com/DatacenturiesDataC/directus-operation-excel-to-json/issues "
+  },
+  "directus:extension": {
+    "type": "operation",
+    "path": {
+      "app": "dist/app.js",
+      "api": "dist/api.js"
+    },
+    "source": {
+      "app": "src/app.js",
+      "api": "src/api.js"
+    },
+    "host": "^10.10.0"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link",
+    "validate": "directus-extension validate"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "13.1.0",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "xlsx": "^0.18.5"
+  }
+}
