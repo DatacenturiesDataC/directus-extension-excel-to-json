@@ -4,7 +4,7 @@ A Directus custom operation that converts Excel (`.xlsx`, `.xls`, `.xlsm`), CSV 
 
 ---
 
-![Excel to JSON Operation](assets/excel-to-json-operation.png)
+![Excel to JSON Operation](https://raw.githubusercontent.com/DatacenturiesDataC/directus-extension-excel-to-json/main/assets/excel-to-json-operation.png)
 
 ## ✅ Features
 
