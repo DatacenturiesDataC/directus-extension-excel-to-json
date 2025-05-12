@@ -1,5 +1,5 @@
 {
-  "name": "@DatacenturiesDataC/directus-operation-excel-to-json",
+  "name": "excel-to-json",
   "description": "Converts Excel, CSV, or XML files into JSON format.",
   "icon": "extension",
   "version": "1.0.0",
@@ -42,7 +42,7 @@
       "app": "src/app.js",
       "api": "src/api.js"
     },
-    "host": "^10.10.0"
+    "host": "^10.0.0 || ^11.0.0"
   },
   "scripts": {
     "build": "directus-extension build",

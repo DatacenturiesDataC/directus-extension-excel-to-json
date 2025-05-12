@@ -44,7 +44,7 @@ Refer to the [Official Guide](https://docs.directus.io/extensions/installing-ext
 npm package:
 
 ```bash
-npm install directus-operation-excel-to-json // TO BE REVISED
+npm install directus-operation-excel-to-json
 ```
 
 ## ⚙️ Usage
