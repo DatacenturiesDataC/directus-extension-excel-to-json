@@ -2,7 +2,7 @@
   "name": "directus-operation-excel-to-json",
   "description": "Converts Excel, CSV, or XML files into JSON format.",
   "icon": "extension",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "directus",
     "directus-extension",

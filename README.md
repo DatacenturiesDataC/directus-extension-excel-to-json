@@ -23,8 +23,8 @@ This extension uses the [xlsx package](https://www.npmjs.com/package/xlsx) for p
 
 ## ⛔ Limitations
 
-> ❗ **This extension currently only supports files stored in local storage.**  
-> If you're using S3, Google Cloud Storage, or any other external storage adapter, this operation will **not work as expected**.
+**This extension currently only supports files stored in local storage.**  
+If you're using S3, Google Cloud Storage, or any other external storage adapter, this operation will **not work as expected**.
 
 ---
 
